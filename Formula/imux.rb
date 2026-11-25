@@ -1,28 +1,28 @@
 class Imux < Formula
   desc "Terminal multiplexer with images in the scrollback"
   homepage "https://imux.cc"
-  version "0.2.1"
+  version "0.3.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://git.kingepic84.page/kingepic84/imux/releases/download/v#{version}/imux-aarch64-apple-darwin.tar.gz"
-      sha256 "550b62f14787ace0077b9a4fa267c227fc58b82b9ad2d63d9ed12de869b72ce6"
+      sha256 "80a96d68fe453cd0b92ee4082b7bf028e582c1ae39d29040fe5511c35454ea14"
     end
     on_intel do
       url "https://git.kingepic84.page/kingepic84/imux/releases/download/v#{version}/imux-x86_64-apple-darwin.tar.gz"
-      sha256 "7b6b887d9be6149ab42d3d65c80993337ca2d749784f2f340de81add38b6870f"
+      sha256 "501fb21dd949d848705791e939a3675f4301b8558b32ff201836dfc1e02a6188"
     end
   end
 
   on_linux do
     on_arm do
       url "https://git.kingepic84.page/kingepic84/imux/releases/download/v#{version}/imux-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0368dbb11660ddf8b1b843552515a4afb20535a283e90554da2fbf3cecf29508"
+      sha256 "9374c21bbe187db762ff9e77068cba5ec42692392e61549e667bd1505731dcc3"
     end
     on_intel do
       url "https://git.kingepic84.page/kingepic84/imux/releases/download/v#{version}/imux-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4893fedaf9a48c4eaf2083ee0112ab7581a273f59bcd3653f2689f4c4ffec904"
+      sha256 "f2dd8368badff199b1addc09cdbfe86f2b75be0829b869750cd8216942159dfb"
     end
   end
 
